@@ -41,15 +41,19 @@
 # squareObj = Square()
 # res = squareObj.toSquares(12, 11)
 # print(res)
+# from square_generator import Square
+# squareObj = Square()
+# res = squareObj.toSquares(1, 11)
+# print(res)
+# roots = squareObj.squareRoots(res)
+# print(roots)
 # from square_package.square_generator import Square
 # squareObj = Square()
 # res = squareObj.toSquares(1, 11)
 # print(res)
 # roots = squareObj.squareRoots(res)
 # print(roots)
-from square_package.square_generator import Square
-squareObj = Square()
-res = squareObj.toSquares(1, 11)
+from square_package.cubic_generator import CubicGenerator
+cube = CubicGenerator()
+res = cube.toCubes(1, 11)
 print(res)
-roots = squareObj.squareRoots(res)
-print(roots)
