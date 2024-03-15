@@ -7,3 +7,9 @@ class CubicGenerator(Square):
             raise ValueError("Wrong range")
         cube = [num ** 3 for num in range(firstNum, secondNum)]
         return cube
+    def toSquares(self, firstNum, secondNum):
+        if  firstNum < secondNum:
+            square = [num ** 2 for num in range(firstNum, secondNum)]
+            return square
+        else:
+            raise ValueError("Wrong range")
