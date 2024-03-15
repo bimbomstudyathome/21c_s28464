@@ -57,7 +57,11 @@
 # cube = CubicGenerator()
 # res = cube.toCubes(1, 11)
 # print(res)
+# from square_package.cubic_generator import CubicGenerator
+# cube = CubicGenerator()
+# res = cube.toSquares(12, 11)
+# print(res)
 from square_package.cubic_generator import CubicGenerator
 cube = CubicGenerator()
-res = cube.toSquares(12, 11)
+res = cube.toSquares(1,11)
 print(res)
